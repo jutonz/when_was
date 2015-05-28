@@ -1,4 +1,5 @@
-# WhenWas
+# WhenWas  
+[![Build Status](https://travis-ci.org/jutonz/when_was.svg)](https://travis-ci.org/jutonz/when_was)
 
 Given an episode number, this program tells you when a given episode of A State of Trance aired. Also works for future episodes.
 
