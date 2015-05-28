@@ -3,9 +3,16 @@ require 'date'
 
 module WhenWas
   def WhenWas.ASOT(episode) 
-    episode_699 = Date.new 2015, 1, 22
+    episode = episode.to_i
 
-    diff = 699 - episode
-    episode_699 - (diff * 7) 
+    if episode < 701
+      episode_699 = Date.new 2015, 1, 22
+      diff = 699 - episode
+      return episode_699 - (diff * 7)
+    else 
+      episode_701 = Date.new 2015, 2, 19
+      diff = 701 - episode
+      return episode_701 - (diff * 7)
+    end
   end
 end
