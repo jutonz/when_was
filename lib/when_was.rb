@@ -1,4 +1,5 @@
-require "when_was/version"
+require 'when_was/version'
+require 'date'
 
 module WhenWas
   def WhenWas.ASOT(episode) 
