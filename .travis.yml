@@ -1,3 +1,8 @@
 language: ruby
 rvm:
-  - 2.2.1
+- 2.2.1
+deploy:
+  provider: rubygems
+  api_key:
+    secure: RHEuUgZMd2vhxrV/cPteYHe0QAuFMqwcjfAenTkshm+vjHTJ4MGmETteXmcHZHFdyy/DIsrzZfukTaBnhzElkbrUyUGNF0A4TZuBlxxzJ6jVMGcxHM2xT/fZj43rcpXqoXJUP2bLtwmHAQuM3u8uMxgUHDyF6ojOfvpecT6X0C5uvXSCcI4l1Pcq94k9O3MOV0l1AF0gL0CWNNHoT/9mwRfrbh8yeuLESV3XVf/ueWiKV8sXUyTtp3iQpiKSEbndahcDlYDJxrDIzCGH2hGR67ro14ILg/JmB5+RxWz+cqzEifOj0aKBRbYeEOkFuD9KvEykFoT26vIY2cEGaglWup/x4c6gLw8xGP3jnrzWZO0X9jApf9qKCX7qzbeHzED++AeUv0Ytx3zetMFfH6cyk/rJRCJAHBymRXvZ/NzjesG1Ld6odeCrKHyOP3s2PVjrucIua84SNwU4gaS3W92iTfnkkAbCq23O6Cg1++RrMDt7Tb7QqhTQswSbjewX2rNewrNL8M/8PdUBV0gYWCUYyYR5p2Nw1JXcsM7nb1g2MpgDezqcqFyHVCU5j5YWK84leupTxS7HlFQr3CaUUbDL76H1s2+jstUx+n0RfLkn7MSTwv4IDKhRfV9j8MLn6pEdiR8fmqbWlBNWuamptnHR1Cub3t0h/3cnf4kgoO8GdnQ=
+  gem: when_was
